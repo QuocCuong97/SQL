@@ -7,3 +7,5 @@
     - Trong đó :
         - Tham số `column*` chỉ định tên các cột của bảng
         - Tham số `datatype` chỉ định kiểu dữ liệu của các cột (VD: `varchar`, `integer`, `date`,...)
+- **VD :**
+    

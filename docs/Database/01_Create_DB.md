@@ -4,3 +4,8 @@
     ```sql
     CREATE DATABASE databasename;
     ```
+- **VD :** Tạo một database mới tên là "`testDB`"
+    ```
+    CREATE DATABASE testDB;
+    ```
+    <img src=https://i.imgur.com/XR3OJ07.png>
