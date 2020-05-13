@@ -19,3 +19,21 @@
     | `WHERE Name LIKE 'a_%'` | Tìm bất cứ giá trị nào bắt đầu bằng `a` và có tối thiểu 2 kí tự |
     | `WHERE Name LIKE 'a__%'` | Tìm bất cứ giá trị nào bắt đầu bằng `a` và có tối thiểu 3 kí tự |
     | `WHERE Name LIKE 'a%o'` | Tìm bất cứ giá trị nào bắt đầu bằng `a` và kết thúc bằng `o` |
+
+- **VD1 :** Tìm tất cả các record có trường `FirstName` bắt đầu bằng `T` trong bảng `Persons` :
+    ```sql
+    SELECT * FROM Persons WHERE FirstName LIKE 'T%';
+    ```
+    <img src=https://i.imgur.com/iV2HMQl.png>
+
+- **VD2 :** Tìm tất cả các record có trường `FirstName` có chữ `u` ở giữa trong bảng `Persons` :
+    ```sql
+    SELECT * FROM Persons WHERE FirstName LIKE '%u%';
+    ```
+    <img src=https://i.imgur.com/cwJMjnr.png>
+
+- **VD3 :** Tìm tất cả các record có trường `FirstName` có chữ `r` ở vị trí thứ 2 trong bảng `Persons` :
+    ```sql
+    SELECT * FROM Persons WHERE FirstName LIKE '_r%';
+    ```
+    <img src=https://i.imgur.com/EQH80ge.png>

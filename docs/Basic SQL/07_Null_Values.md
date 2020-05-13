@@ -11,3 +11,11 @@
     ```sql
     SELECT column_names FROM table_name WHERE column_name IS NOT NULL;
     ```
+- **VD1 :** Kiểm tra xem record nào có giá trị `Address`=`NULL` trong bảng `Persons`:
+    ```sql
+    SELECT * FROM Persons WHERE Address IS NULL;
+    ```
+- **VD1 :** Kiểm tra xem record nào có giá trị `Address` KHÔNG `NULL` trong bảng `Persons`:
+    ```sql
+    SELECT * FROM Persons WHERE Address IS NOT NULL;
+    ```

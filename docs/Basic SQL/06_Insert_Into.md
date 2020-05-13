@@ -9,3 +9,19 @@
         ```sql
         INSERT INTO table_name VALUES (value1, value2, value3, ...);
         ```
+- **VD :** Thêm các record sau vào bảng `Person` :
+    ```sql
+    INSERT INTO Persons (LastName, FirstName, Address, City) VALUES ('Ngo Quoc', 'Cuong', 'Dong Da', 'Ha Noi');
+    ```
+    ```sql
+    INSERT INTO Persons (LastName, FirstName, Address, City) VALUES ('Phung Thi Thuy', 'Trang', 'Thanh Xuan', 'Ha Noi');
+    ```
+    ```sql
+    INSERT INTO Persons (LastName, FirstName, Address, City) VALUES ('Ngo Quoc', 'Tu', 'Hoang Mai', 'Ha Noi');
+    ```
+    ```sql
+    INSERT INTO Persons (LastName, FirstName, Address, City) VALUES ('Nguyen Manh', 'Trung', 'Thanh Tri', 'Ha Noi');
+    ```
+    => Kết quả :
+    
+    <img src=https://i.imgur.com/YGLnBDE.png>
