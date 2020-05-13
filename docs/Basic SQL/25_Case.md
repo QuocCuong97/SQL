@@ -3,5 +3,16 @@
 - Nếu không có phần `ELSE` trong lệnh và không có điều kiện nào đúng, nó sẽ trả về `NULL` .
 - Cú pháp :
     ```sql
-    CASE WHEN condition1 THEN result1 WHEN condition2 THEN result2 WHEN conditionN THEN resultN ELSE result END;
+    CASE
+        WHEN condition1 THEN result1
+        WHEN condition2 THEN result2
+        WHEN conditionN THEN resultN
+        ELSE result
+    END;
     ```
+- **VD :** Thêm một trường `Note` để nhận xét về trường `ID` trong bảng `Persons` :
+    ```sql
+    SELECT * , CASE WHEN ID=1 THEN 'Best' WHEN ID=2 THEN 'Second'
+    ELSE 'Other' END AS Note FROM Persons;
+    ```
+    <img src=https://i.imgur.com/ovhAD5k.png>
