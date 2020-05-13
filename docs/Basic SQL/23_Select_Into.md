@@ -10,3 +10,4 @@
         SELECT column1, column2, column3, ... INTO newtable [IN externaldb] FROM oldtable WHERE condition;
         ```
 > Bảng mới sẽ được tạo ra với tên cột và kiểu dữ liệu như bảng cũ . Có thể thay để tên cột mới bằng mệnh đề `AS` 
+

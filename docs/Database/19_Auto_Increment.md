@@ -11,6 +11,7 @@
         City varchar(255)
     );
     ```
+    <img src=https://i.imgur.com/rPPm2Ng.png>
 - Mặc định, giá trị bắt đầu của `AUTO_INCREMENT` là `1`, và sẽ tăng lên `1` cho mỗi record mới .
 - Để thay đổi giá trị bắt đầu, dùng lệnh sau :
     ```sql
