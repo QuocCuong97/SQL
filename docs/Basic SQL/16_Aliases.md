@@ -17,9 +17,10 @@
     <img src=https://i.imgur.com/OmxvFCN.png>
 
 > Đặt tên cột mới trong dấu `''` hoặc `[]` nếu trong tên cột mới có chứa dấu cách .
+### Sử dụng hàm `CONCAT()`
 - **VD2 :** Gộp 2 cột `LastName` và `FirstName` thành 1 cột `Full Name` , 2 cột `Address` và `City` lại thành 1 cột `Full Address` :
     ```sql
-    SELECT ID, LastName + ' ' + FirstName AS 'Full Name', Address + ', ' + City AS 'Full Address' FROM Persons;
+    SELECT ID, CONCAT(LastName, ' ', FirstName) AS 'Full Name', CONCAT(Address, ', ', City) AS 'Full Address' FROM Persons;
     ```
     ```
     Đoạn này đang lỗi. Cần kiểm chứng lại
